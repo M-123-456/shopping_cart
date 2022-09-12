@@ -2,8 +2,8 @@ import { useStore } from '../store';
  
 const Confirmation = () => {
 
-    const order = useStore(state => state.order)
-    console.log('order', order);
+    const order = useStore(state => state.order);
+
 
     return (
         <section

@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 
 import { useStore } from '../store';
@@ -25,7 +26,6 @@ const Payment= () => {
         emptyCart();
         navigate('/confirmation', { replace: true });
     };
-    
     
 
     return (  

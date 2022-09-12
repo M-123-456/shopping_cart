@@ -118,7 +118,7 @@ export const useStore = create<IProductState & IShoppingCartState & IUsers & IOr
                 products: shoppingCart,
             }
         }))
-    }
-}))
+    },
+    }))
 
 export default useStore;
