@@ -23,10 +23,11 @@ const Search= () => {
         <>
             <div
                 area-label="Search"    
-                className="h-8 px-2 flex items-center bg-white rounded-full text-black relative"
+                className="flex items-center h-8 px-2 text-black bg-white rounded-full"
             >
                 <input 
-                    className="hidden sm:block sm:pl-3 sm:focus:outline-none"
+                //"hidden sm:block sm:pl-3 sm:focus:outline-none"
+                    className="block pl-3 focus:outline-none"
                     value={searchWords}
                     onChange={handleChange}
                 />
