@@ -38,7 +38,7 @@ export const useAvailability = () => {
             setIsAvailable(true);
             setMessage('');
         }
-    },[isAvailable, message])
+    },[])
 
     return { isAvailable, message, checkAvailability}
 }

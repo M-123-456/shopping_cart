@@ -13,7 +13,7 @@ export const useLoginUser = () => {
     const [loading, setLoading] = useState(false);
     const [message, setMessage] = useState('');
 
-    const getLoginUserDetails = async( url: string ) => {
+    const getLoginUserDetails = useCallback(async( url: string ) => {
         setLoading(true);
         try {
             const res = await axios.get<IUser[]>(url);
@@ -31,6 +31,6 @@ export const useLoginUser = () => {
             setLoading(false);
             setMessage('Problem with loading user data')
         }
-    }
+    },[loginUserId, setLoginUserDetails])
     return { loading, message, getLoginUserDetails }
 }

@@ -7,8 +7,6 @@ interface DeliverAddressProps {
 const AddressDetails: React.FC<DeliverAddressProps> = () => {
 
     const loginUserDetails = useStore(state => state.loginUserDetails);
-    const deliveryAddress = useStore(state => state.order.deliveryAddress);
-    const setDeliveryAddress = useStore(state => state.setDeliveryAddress);
 
     return (
         <section

@@ -18,12 +18,13 @@ const UserIcon = () => {
     console.log(loginUserDetails)
     useEffect(() => {
         getLoginUserDetails(USERS_URL);
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     },[])
 
     return (  
         <div
             area-label='user_icon'
-            className="py-1 px-2 flex gap-4 items-center bg-pink-500 hover:opacity-75 rounded-full"
+            className="flex items-center gap-4 px-2 py-1 bg-pink-500 rounded-full hover:opacity-75"
         >
             {
                 loading ? 'loading user data...' :

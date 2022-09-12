@@ -7,11 +7,6 @@ import useStore from '../store';
 import ProductCard from '../components/cards/ProductCard';
 import NavBar from '../components/navbar/NavBar';
 
-// todo payment method
-// todo address form
-// todo shopping cart product or number of products
-// todo search responsive
-
 const Home = () => {
 
     const { pathname } = useLocation();
@@ -21,6 +16,7 @@ const Home = () => {
 
     useEffect(() => {
         loadProducts();
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     },[])
    
     return (
@@ -29,7 +25,7 @@ const Home = () => {
                 {
                     pathname === '/' ? (
                     <section
-                        className="py-3 px-4 flex flex-wrap gap-3 justify-center"
+                        className="flex flex-wrap justify-center gap-3 px-4 py-3"
                     >
                         {filteredProducts?.map(article => (
                             <ProductCard key={article.id} id={article.id} />            
