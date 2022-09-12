@@ -19,4 +19,4 @@ This project simulates a e-commerce site and a shopping cart of an user (stautus
 ### [zustand](https://docs.pmnd.rs/zustand/getting-started/introduction)
 ### [{JSON}Placeholder](https://jsonplaceholder.typicode.com/)
 
-[Link](https://shopping-cart-omega-dusky.vercel.app/)
+Link: https://shopping-cart-omega-dusky.vercel.app/
