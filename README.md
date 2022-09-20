@@ -1,23 +1,23 @@
-# React Shopping Cart:
+## React Shopping Cart:
 
-### 1. Install the project
+1. Install the project
 `npm install`
 
-### 2. Start the project with following command (start from your project root)
+2. Start the project with following command (start from your project root)
 `npm start`
 
-### 3. Purpose of this project
+3. Purpose of this project
 It was an assignment of my coding school.
 
-### 4. What this project is about
-This project simulates a e-commerce site and a shopping cart of an user (stautus: already logged in). 
+4. What this project is about
+This project simulates a shopping cart of an user (stautus: already logged in). 
 
-## This project includes:
+5. This project includes:
 
-#### Docs:
-#### [tailwind](https://tailwindcss.com/docs/guides/create-react-app)
-#### [zustand](https://docs.pmnd.rs/zustand/getting-started/introduction)
-#### [{JSON}Placeholder](https://jsonplaceholder.typicode.com/)
+Docs:
+- [tailwind](https://tailwindcss.com/docs/guides/create-react-app)
+- [zustand](https://docs.pmnd.rs/zustand/getting-started/introduction)
+- [{JSON}Placeholder](https://jsonplaceholder.typicode.com/)
 
-## Deploy
+6. Deploy
 https://shopping-cart-omega-dusky.vercel.app/
