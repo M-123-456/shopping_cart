@@ -1,5 +1,4 @@
 import { IProduct } from '../types/products/IProduct';
-import jurassicWorld from '../assets/images/jurassic-world.jpg';
 import lamp from '../assets/images/lamp.jpg';
 import speaker from '../assets/images/speaker.jpg';
 
@@ -7,27 +6,27 @@ import speaker from '../assets/images/speaker.jpg';
 export const products: IProduct[] = [
     {
         id: '12345',
-        name: 'Jurassic World: Ein neues Zeitalter',
+        name: 'The book of dogs',
         description: 'DVD',
         price: 16.99,
         quantity: 10,
-        image: `${jurassicWorld}`,
+        image: "https://source.unsplash.com/oU6KZTXhuvk",
     },
     {
         id: '65487',
-        name: 'LENRUE A15 Bluetooth Speaker',
+        name: 'Great Sound Speaker',
         description: 'Speaker',
         price: 21.99,
         quantity: 3,
-        image: `${speaker}`,
+        image: "https://source.unsplash.com/u8-QI4tRES0",
     },
     {
         id: '54879',
-        name: 'Dansi 44001 LED Bicycle Battery Light Set',
-        description: 'Bike lamp',
+        name: 'The Lamp of the good old days',
+        description: 'interior',
         price: 10.99,
         quantity: 5,
-        image: `${lamp}`,
+        image: "https://source.unsplash.com/BCNO7JuNi1w",
     },
 ];
 

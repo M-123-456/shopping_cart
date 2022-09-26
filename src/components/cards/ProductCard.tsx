@@ -16,7 +16,7 @@ const ProductCard: React.FC<ProductCardProps> = ( { id } ) => {
 
     return (  
         <div
-            className="py-2 px-3 w-60 border border-slate-400 rounded-lg hover:opacity-75"
+            className="py-3 px-4 w-60 border border-slate-400 rounded-lg hover:opacity-75"
         >
             <NavLink 
                 to={`/products/${product?.id}`}
@@ -26,12 +26,12 @@ const ProductCard: React.FC<ProductCardProps> = ( { id } ) => {
                 >
                     <img 
                         className="w-full h-full object-contain"
-                        src={product?.image} 
+                        src={product?.image}
                         alt={product?.name}
                         />
                 </div>
-                <h2 className="text-lg">{product?.name}</h2>
-                <p>{product?.price} Euro</p>
+                <h2 className="pt-2 text-xl font-bold text-center">{product?.name}</h2>
+                <p className="text-center">{product?.price} Euro</p>
             </NavLink>
         </div>
     );
