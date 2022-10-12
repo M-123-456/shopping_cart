@@ -1,6 +1,4 @@
 import { IProduct } from '../types/products/IProduct';
-import lamp from '../assets/images/lamp.jpg';
-import speaker from '../assets/images/speaker.jpg';
 
 
 export const products: IProduct[] = [
